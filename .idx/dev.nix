@@ -12,6 +12,7 @@
     # pkgs.nodePackages.nodemon
     pkgs.dosbox-staging
     pkgs.nasm
+    pkgs.emu2
   ];
   # Sets environment variables in the workspace
   env = {};
