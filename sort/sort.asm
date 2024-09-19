@@ -2,9 +2,9 @@ bits 16
 org 0x100
 
 section .data
-    prompt db "Ingresa un entero (0-99): $"
-    result_msg db "Numeros ordenados: $"
-    newline db 0x0d, 0x0a, "$"
+    prompt db "Ingresa un entero (0-99): $"  ; Saves a String
+    result_msg db "Numeros ordenados: $"  ; Saves a String
+    newline db 0x0d, 0x0a, "$"  ; String saves a new line
     nums times 10 db 0          ; Array to save 10 numbers
 
 section .bss                ; Declare variables without initializing 
