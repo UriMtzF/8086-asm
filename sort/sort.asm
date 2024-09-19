@@ -1,3 +1,5 @@
+; Gutierrez Perez Daniela
+; Martínez Florez Uri
 bits 16
 org 0x100
 
